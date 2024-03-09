@@ -2,7 +2,8 @@
 
 int main()
 {
-	float Value1, Value2, Value3, Average;
+	float Value1, Value2, Value3;
+	float Average = 0.0f;
 
 	std::cout << "Type three float values separated by <SPACE> then press <ENTER>: ";
 	std::cin >> Value1 >> Value2 >> Value3;
